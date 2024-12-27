@@ -1,6 +1,6 @@
 # AutoUpdateProject
 
-[![](https://jitpack.io/v/MZCretin/AutoUpdateProject.svg)](https://jitpack.io/#MZCretin/AutoUpdateProject)
+[![](https://jitpack.io/v/892674941/AutoUpdateProject.svg)](https://jitpack.io/#892674941/AutoUpdateProject)
 
 ### 全平台国际化话翻译解决方案
 项目国际化翻译解决方案，支持Android、iOS、Flutter、前端Vue、后端PHP等等，点几下按钮就能实现翻译内容的自动抓取和翻译后文件的自动生成，适合各类场景下的国际化需求。详情请查看：https://github.com/MZCretin/Eva-Translate 欢迎star
