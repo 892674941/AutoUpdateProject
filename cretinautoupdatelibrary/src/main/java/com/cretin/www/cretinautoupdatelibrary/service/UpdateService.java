@@ -27,9 +27,9 @@ public class UpdateService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        registerReceiver(updateReceiver, new IntentFilter(getPackageName() + UpdateReceiver.DOWNLOAD_ONLY));
-        registerReceiver(updateReceiver, new IntentFilter(getPackageName() + UpdateReceiver.RE_DOWNLOAD));
-        registerReceiver(updateReceiver, new IntentFilter(getPackageName() + UpdateReceiver.CANCEL_DOWNLOAD));
+        registerReceiver(updateReceiver, new IntentFilter(getPackageName() + UpdateReceiver.DOWNLOAD_ONLY),RECEIVER_EXPORTED);
+        registerReceiver(updateReceiver, new IntentFilter(getPackageName() + UpdateReceiver.RE_DOWNLOAD),RECEIVER_EXPORTED);
+        registerReceiver(updateReceiver, new IntentFilter(getPackageName() + UpdateReceiver.CANCEL_DOWNLOAD),RECEIVER_EXPORTED);
     }
 
     @Override
